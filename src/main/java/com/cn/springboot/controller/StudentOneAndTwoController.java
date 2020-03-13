@@ -28,8 +28,4 @@ public class StudentOneAndTwoController {
         System.out.println("student2:"+student2);
     }
 
-    @RequestMapping(value = "/index")
-    public String index(){
-        return "idnex";
-    }
 }
